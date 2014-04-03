@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2604401F-C282-4D2A-B11D-EDE0A8FE7D28</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ZFNews4iphone</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BDE5D897-3DB5-47C1-8C24-EE36978C5C22</key>
+		<string>https://github.com/zhangfan107/ZFNews4iphone.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ZFNews4iphone.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BDE5D897-3DB5-47C1-8C24-EE36978C5C22</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/zhangfan107/ZFNews4iphone.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BDE5D897-3DB5-47C1-8C24-EE36978C5C22</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BDE5D897-3DB5-47C1-8C24-EE36978C5C22</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ZFNews4iphone</string>
+		</dict>
+	</array>
+</dict>
+</plist>

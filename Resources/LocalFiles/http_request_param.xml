@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- requestId的值务必与 HttpRequestType 中的相关值保持一致 -->
+
+<root>
+    
+    <!-- 登录 -->
+    <request>
+        <requestId>LOGIN</requestId>
+        <url>/user.action?m=frontUserLogin</url>
+        <method>POST</method>
+    </request>
+    
+    <!-- 注册 -->
+    <request>
+        <requestId>REGISTER</requestId>
+        <url>/user.action?m=frontRegister</url>
+        <method>POST</method>
+    </request>
+    
+    
+    
+    
+    
+    
+    <!-- 个人图书列表 -->
+    <request>
+        <requestId>BOOKLIST</requestId>
+        <url>/buylog.action?m=userInfo</url>
+        <method>POST</method>
+    </request>
+    
+    <!-- 修改密码 -->
+    <request>
+        <requestId>MODPWD</requestId>
+        <url>/user.action?m=frontModPwd</url>
+        <method>POST</method>
+    </request>
+    
+    <!-- 购买图书列表 -->
+    <request>
+        <requestId>BUYLIST</requestId>
+        <url>/buylog.action?m=frontBuyList</url>
+        <method>POST</method>
+    </request>
+    
+    <!-- 图书下载 -->
+    <request>
+        <requestId>MULU</requestId>
+        <url>/buylog.action?m=frontMuLu</url>
+        <method>POST</method>
+    </request>
+    
+    <!--银联获取流水号-->
+    <request>
+        <requestId>YLLS</requestId>
+        <url>/buylog.action?m=frontTransNumber</url>
+        <method>POST</method>
+    </request>
+    
+    <!--版本控制-->
+    <request>
+        <requestId>VERSION</requestId>
+        <url>/user.action?m=frontUpdateVersion</url>
+        <method>POST</method>
+    </request>
+    
+    <!--全文检索-->
+    <request>
+        <requestId>FULLSEARCH</requestId>
+        <url>/buylog.action?m=frontSearchKey</url>
+        <method>POST</method>
+    </request>
+    
+    <!--全文检索点击列表看是否购买-->
+    <request>
+        <requestId>ISBUY</requestId>
+        <url>/buylog.action?m=frontIfBuy</url>
+        <method>POST</method>
+    </request>
+    
+    <!--用户购买某本书后将状态置为已购买-->
+    <request>
+        <requestId>FRONTBuy</requestId>
+        <url>/buylog.action?m=frontBuy</url>
+        <method>POST</method>
+    </request>
+</root>
