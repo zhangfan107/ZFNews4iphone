@@ -111,6 +111,20 @@
 		2CF4DB5B18D93A6C00D14072 /* TBXML+HTTP.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF4DB5718D93A6C00D14072 /* TBXML+HTTP.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		2CF4DB5C18D93A6C00D14072 /* TBXML.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF4DB5918D93A6C00D14072 /* TBXML.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		2CF4DB6018D93AB700D14072 /* MProgressAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF4DB5F18D93AB700D14072 /* MProgressAlertView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		982566A918FD157600584D9B /* pl-count.png in Resources */ = {isa = PBXBuildFile; fileRef = 982566A818FD157600584D9B /* pl-count.png */; };
+		982D497618FBBBA20086B59F /* bt-back1.png in Resources */ = {isa = PBXBuildFile; fileRef = 982D497218FBBBA10086B59F /* bt-back1.png */; };
+		982D497718FBBBA20086B59F /* bt-fx.png in Resources */ = {isa = PBXBuildFile; fileRef = 982D497318FBBBA10086B59F /* bt-fx.png */; };
+		982D497818FBBBA20086B59F /* bt-pl.png in Resources */ = {isa = PBXBuildFile; fileRef = 982D497418FBBBA20086B59F /* bt-pl.png */; };
+		982D497918FBBBA20086B59F /* bt-sc.png in Resources */ = {isa = PBXBuildFile; fileRef = 982D497518FBBBA20086B59F /* bt-sc.png */; };
+		982D5BCC18F4F31600E79867 /* NewsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 982D5BCB18F4F31600E79867 /* NewsModel.m */; };
+		982D5BCE18F52D0F00E79867 /* bg-bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = 982D5BCD18F52D0F00E79867 /* bg-bottom.png */; };
+		98315C6D18F636E300659526 /* line.png in Resources */ = {isa = PBXBuildFile; fileRef = 98315C6C18F636E300659526 /* line.png */; };
+		98315C6F18F63F2800659526 /* more.png in Resources */ = {isa = PBXBuildFile; fileRef = 98315C6E18F63F2800659526 /* more.png */; };
+		98315C7218F6751300659526 /* ShowContentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 98315C7118F6751300659526 /* ShowContentViewController.m */; };
+		983A2CF418F3902300FB560C /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 983A2CF318F3902300FB560C /* SearchViewController.m */; };
+		983A2CF618F39B1F00FB560C /* search-bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 983A2CF518F39B1F00FB560C /* search-bg.png */; };
+		983A2CF818F3A28500FB560C /* bg-search.png in Resources */ = {isa = PBXBuildFile; fileRef = 983A2CF718F3A28500FB560C /* bg-search.png */; };
+		983A2CFA18F3CD1300FB560C /* bt-search.png in Resources */ = {isa = PBXBuildFile; fileRef = 983A2CF918F3CD1300FB560C /* bt-search.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -307,6 +321,23 @@
 		2CF4DB5918D93A6C00D14072 /* TBXML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TBXML.m; sourceTree = "<group>"; };
 		2CF4DB5E18D93AB700D14072 /* MProgressAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MProgressAlertView.h; sourceTree = "<group>"; };
 		2CF4DB5F18D93AB700D14072 /* MProgressAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MProgressAlertView.m; sourceTree = "<group>"; };
+		982566A818FD157600584D9B /* pl-count.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pl-count.png"; sourceTree = "<group>"; };
+		982D497218FBBBA10086B59F /* bt-back1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bt-back1.png"; sourceTree = "<group>"; };
+		982D497318FBBBA10086B59F /* bt-fx.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bt-fx.png"; sourceTree = "<group>"; };
+		982D497418FBBBA20086B59F /* bt-pl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bt-pl.png"; sourceTree = "<group>"; };
+		982D497518FBBBA20086B59F /* bt-sc.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bt-sc.png"; sourceTree = "<group>"; };
+		982D5BCA18F4F31600E79867 /* NewsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NewsModel.h; path = Classes/Common/DataModel/NewsModel.h; sourceTree = "<group>"; };
+		982D5BCB18F4F31600E79867 /* NewsModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NewsModel.m; path = Classes/Common/DataModel/NewsModel.m; sourceTree = "<group>"; };
+		982D5BCD18F52D0F00E79867 /* bg-bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-bottom.png"; sourceTree = "<group>"; };
+		98315C6C18F636E300659526 /* line.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = line.png; sourceTree = "<group>"; };
+		98315C6E18F63F2800659526 /* more.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = more.png; sourceTree = "<group>"; };
+		98315C7018F6751300659526 /* ShowContentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowContentViewController.h; sourceTree = "<group>"; };
+		98315C7118F6751300659526 /* ShowContentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowContentViewController.m; sourceTree = "<group>"; };
+		983A2CF218F3902300FB560C /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		983A2CF318F3902300FB560C /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		983A2CF518F39B1F00FB560C /* search-bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "search-bg.png"; sourceTree = "<group>"; };
+		983A2CF718F3A28500FB560C /* bg-search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg-search.png"; sourceTree = "<group>"; };
+		983A2CF918F3CD1300FB560C /* bt-search.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bt-search.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -667,6 +698,7 @@
 		2CF4DA3718D068DB00D14072 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				983A2CF118F38FDE00FB560C /* search */,
 				2CF4DB0718D2D32200D14072 /* home */,
 				2CF4DAFE18D2D0E000D14072 /* loginAndResiger */,
 			);
@@ -725,6 +757,8 @@
 				2CF4DAA818D2AD3900D14072 /* ContentModel.m */,
 				2CF4DA9E18D1BBC900D14072 /* RequestModel.h */,
 				2CF4DA9F18D1BBC900D14072 /* RequestModel.m */,
+				982D5BCA18F4F31600E79867 /* NewsModel.h */,
+				982D5BCB18F4F31600E79867 /* NewsModel.m */,
 			);
 			name = DataModel;
 			sourceTree = "<group>";
@@ -887,6 +921,17 @@
 		2CF4DAFF18D2D14B00D14072 /* Image */ = {
 			isa = PBXGroup;
 			children = (
+				982566A818FD157600584D9B /* pl-count.png */,
+				982D497218FBBBA10086B59F /* bt-back1.png */,
+				982D497318FBBBA10086B59F /* bt-fx.png */,
+				982D497418FBBBA20086B59F /* bt-pl.png */,
+				982D497518FBBBA20086B59F /* bt-sc.png */,
+				98315C6E18F63F2800659526 /* more.png */,
+				98315C6C18F636E300659526 /* line.png */,
+				982D5BCD18F52D0F00E79867 /* bg-bottom.png */,
+				983A2CF918F3CD1300FB560C /* bt-search.png */,
+				983A2CF718F3A28500FB560C /* bg-search.png */,
+				983A2CF518F39B1F00FB560C /* search-bg.png */,
 				2C78040F18EBBFBD005CBDE9 /* lm_add.png */,
 				2C7803C818DAD4C9005CBDE9 /* backbutton_normal.png */,
 				2C7803C918DAD4C9005CBDE9 /* bg.png */,
@@ -920,6 +965,8 @@
 				2CF4DB0918D2D38600D14072 /* HomeViewController.m */,
 				2C78040C18EBB299005CBDE9 /* HomeListViewController.h */,
 				2C78040D18EBB299005CBDE9 /* HomeListViewController.m */,
+				98315C7018F6751300659526 /* ShowContentViewController.h */,
+				98315C7118F6751300659526 /* ShowContentViewController.m */,
 			);
 			name = home;
 			path = Classes/Modules/home;
@@ -991,6 +1038,16 @@
 			);
 			name = MProgressAlertView;
 			path = Resources/External/MProgressAlertView;
+			sourceTree = "<group>";
+		};
+		983A2CF118F38FDE00FB560C /* search */ = {
+			isa = PBXGroup;
+			children = (
+				983A2CF218F3902300FB560C /* SearchViewController.h */,
+				983A2CF318F3902300FB560C /* SearchViewController.m */,
+			);
+			name = search;
+			path = Classes/Modules/search;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1073,23 +1130,34 @@
 				2C7803DC18DAD4C9005CBDE9 /* resiger.png in Resources */,
 				2C7803E118DBCAE8005CBDE9 /* http_request_param.xml in Resources */,
 				2C78038D18D94255005CBDE9 /* lshare.strings in Resources */,
+				982D5BCE18F52D0F00E79867 /* bg-bottom.png in Resources */,
 				2C7803DF18DAD4C9005CBDE9 /* userPwd.png in Resources */,
+				982D497918FBBBA20086B59F /* bt-sc.png in Resources */,
 				2CF4DB2418D81C2600D14072 /* Radial.png in Resources */,
 				2C7803DD18DAD4C9005CBDE9 /* search.png in Resources */,
 				2C78041018EBBFBD005CBDE9 /* lm_add.png in Resources */,
 				2C7803D518DAD4C9005CBDE9 /* bg.png in Resources */,
 				2CF4DA1118D0687400D14072 /* InfoPlist.strings in Resources */,
+				983A2CF618F39B1F00FB560C /* search-bg.png in Resources */,
 				2CF4DAA518D2AC3F00D14072 /* SVProgressHUD.bundle in Resources */,
 				2CF4DA1918D0687400D14072 /* Images.xcassets in Resources */,
+				982D497818FBBBA20086B59F /* bt-pl.png in Resources */,
 				2C7803D818DAD4C9005CBDE9 /* login_s.png in Resources */,
+				98315C6F18F63F2800659526 /* more.png in Resources */,
+				982D497618FBBBA20086B59F /* bt-back1.png in Resources */,
+				982566A918FD157600584D9B /* pl-count.png in Resources */,
 				2C7803D718DAD4C9005CBDE9 /* login-n.png in Resources */,
+				982D497718FBBBA20086B59F /* bt-fx.png in Resources */,
 				2C7803D918DAD4C9005CBDE9 /* logo.png in Resources */,
+				98315C6D18F636E300659526 /* line.png in Resources */,
 				2C7803D618DAD4C9005CBDE9 /* header.png in Resources */,
 				2C7803D418DAD4C9005CBDE9 /* backbutton_normal.png in Resources */,
 				2C78039518D94255005CBDE9 /* WeiboSDK.bundle in Resources */,
 				2C7803DE18DAD4C9005CBDE9 /* user.png in Resources */,
 				2C7803DB18DAD4C9005CBDE9 /* resiger_n.png in Resources */,
+				983A2CF818F3A28500FB560C /* bg-search.png in Resources */,
 				2C7803DA18DAD4C9005CBDE9 /* logo3.png in Resources */,
+				983A2CFA18F3CD1300FB560C /* bt-search.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1128,8 +1196,10 @@
 				2CF4DAA618D2AC3F00D14072 /* SVProgressHUD.m in Sources */,
 				2CF4DB3D18D81C6E00D14072 /* RBBSpringAnimation.m in Sources */,
 				2C78040818EBAF2F005CBDE9 /* MMDrawerController.m in Sources */,
+				982D5BCC18F4F31600E79867 /* NewsModel.m in Sources */,
 				2CF4DA4F18D1AAD800D14072 /* BaseViewController.m in Sources */,
 				2CF4DB2318D81C2600D14072 /* LMNavigationBar.m in Sources */,
+				983A2CF418F3902300FB560C /* SearchViewController.m in Sources */,
 				2C78038818D94255005CBDE9 /* ZS_Share.m in Sources */,
 				2CF4DB5A18D93A6C00D14072 /* TBXML+Compression.m in Sources */,
 				2CF4DA8918D1AC0F00D14072 /* AFURLConnectionOperation.m in Sources */,
@@ -1142,6 +1212,7 @@
 				2C78040E18EBB299005CBDE9 /* HomeListViewController.m in Sources */,
 				2CF4DA6C18D1AB9800D14072 /* EBPurchase.m in Sources */,
 				2CF4DB3E18D81C6E00D14072 /* RBBTweenAnimation.m in Sources */,
+				98315C7218F6751300659526 /* ShowContentViewController.m in Sources */,
 				2CF4DB3718D81C6E00D14072 /* RBBAnimation.m in Sources */,
 				2C78040A18EBAF2F005CBDE9 /* UIViewController+MMDrawerController.m in Sources */,
 				2CF4DA6B18D1AB9800D14072 /* Transfer.m in Sources */,
@@ -1308,8 +1379,8 @@
 				INFOPLIST_FILE = "ZFNews4iphone/ZFNews4iphone-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/zfht/Desktop/ZFNews4iphone/Resources/External/ShareLib/SSDK/libWeiboSDK,
-					/Users/zfht/Desktop/ZFNews4iphone/Resources/External/ShareLib/SSDK/WeiChatSDKExport,
+					"$(SRCROOT)/Resources/External/ShareLib/SSDK/libWeiboSDK",
+					"$(SRCROOT)/Resources/External/ShareLib/SSDK/WeiChatSDKExport",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -1326,8 +1397,8 @@
 				INFOPLIST_FILE = "ZFNews4iphone/ZFNews4iphone-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					/Users/zfht/Desktop/ZFNews4iphone/Resources/External/ShareLib/SSDK/libWeiboSDK,
-					/Users/zfht/Desktop/ZFNews4iphone/Resources/External/ShareLib/SSDK/WeiChatSDKExport,
+					"$(SRCROOT)/Resources/External/ShareLib/SSDK/libWeiboSDK",
+					"$(SRCROOT)/Resources/External/ShareLib/SSDK/WeiChatSDKExport",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;

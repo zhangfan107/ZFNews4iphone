@@ -28,11 +28,13 @@
 #define kCOUNT_GRZX                     @"count_GRZX"
 #define kCOUNT_BCAR                     @"count_BCAR"
 #define kCOUNT_MORE                     @"count_MORE"
-#define kURL                            @"http://220.231.55.105" //下载地址
+//#define kURL                            @"http://220.231.55.105" //下载地址
+#define kURL                            @"http://192.168.100.6:8080" //下载地址
 
 
 // 注意此值并不是真正的联网地址，真正的地址在登录成功后返回，存于 kREALHOST 中
-#define DEFAULTHOST                     @"http://220.231.55.105"
+//#define DEFAULTHOST                     @"http://220.231.55.105"
+#define DEFAULTHOST                     @"http://192.168.100.6:8080"
 
 
 #define iPhone5 ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(640, 1136), [[UIScreen mainScreen] currentMode].size) : NO)
@@ -42,7 +44,7 @@
 #define IS_IOS_7 (DeviceSystemMajorVersion() >= 7)
 
 #define kCollectTableName  @"CollectTable"  //收藏表名
-#define kDataBaseName      @"zjzfDB"        //数据库文件夹
+#define kDataBaseName      @"xwspDB"        //数据库文件夹
 
 @interface Constant : NSObject
 

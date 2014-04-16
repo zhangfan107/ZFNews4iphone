@@ -154,7 +154,7 @@ static bool alertShowing = false;
     [[Transfer sharedClient] setDefaultHeader:@"Content-Type" value:@"application/json"];
     [Transfer sharedClient].parameterEncoding = AFJSONParameterEncoding;
     
-    NSString *path = [NSString stringWithFormat:@"/zjzfWebApp%@", requestModel.url];
+    NSString *path = [NSString stringWithFormat:@"/xwspWebApp%@", requestModel.url];
     
     NSMutableURLRequest *request = [client requestWithMethod:requestModel.method path:path parameters:reqDic];
     [request setTimeoutInterval:20];
@@ -220,7 +220,7 @@ static bool alertShowing = false;
     [[Transfer sharedClient] setDefaultHeader:@"Content-Type" value:@"application/json"];
     [Transfer sharedClient].parameterEncoding = AFJSONParameterEncoding;
     
-    NSString *path = [NSString stringWithFormat:@"/zjzfWebApp%@", requestModel.url];
+    NSString *path = [NSString stringWithFormat:@"/xwspWebApp%@", requestModel.url];
     
     NSMutableURLRequest *request = [client requestWithMethod:requestModel.method path:path parameters:reqDic];
     [request setTimeoutInterval:20];

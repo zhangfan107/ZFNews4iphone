@@ -8,6 +8,7 @@
 
 #import "HomeViewController.h"
 #import "LoginViewController.h"
+#import "SearchViewController.h"
 
 @interface HomeViewController ()
 
@@ -88,7 +89,8 @@
     
 }
 -(IBAction)searchAction:(id)sender{
-    
+    SearchViewController *searchViewController = [[SearchViewController alloc]init];
+    [self.navigationController pushViewController:searchViewController animated:YES];
 }
 
 -(IBAction)userAction:(id)sender{

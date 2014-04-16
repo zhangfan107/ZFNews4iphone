@@ -9,7 +9,7 @@
 #import "BaseViewController.h"
 #import "BaseDBHelper.h"
 
-@class ContentModel;
+@class NewsModel;
 
 @interface  CollectDBHelper:BaseDBHelper
 
@@ -19,10 +19,10 @@
 - (NSArray*) queryAll;
 
 // 插入一条数据
-- (BOOL) insertCollect:(ContentModel *) model;
+- (BOOL) insertCollect:(NewsModel *) model;
 // 删除一条数据
-- (BOOL) deleteCollect:(ContentModel *) model;
+- (BOOL) deleteCollect:(NewsModel *) model;
 
-- (BOOL) findCollect:(ContentModel *) model;
+- (BOOL) findCollect:(NewsModel *) model;
 
 @end

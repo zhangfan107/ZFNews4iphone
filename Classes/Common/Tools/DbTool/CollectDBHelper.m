@@ -8,7 +8,8 @@
 
 #import "CollectDBHelper.h"
 #import "FMDatabase.h"
-#import "ContentModel.h"
+//#import "ContentModel.h"
+#import "NewsModel.h"
 
 @interface CollectDBHelper ()
 
@@ -18,7 +19,7 @@
 
 + (BOOL) createTable:(FMDatabase *) db
 {
-    BOOL flag = [db executeUpdate:[NSString stringWithFormat:@"CREATE TABLE %@ (id INTEGER PRIMARY KEY AUTOINCREMENT, url TEXT, fileName TEXT)", kCollectTableName]];
+    BOOL flag = [db executeUpdate:[NSString stringWithFormat:@"CREATE TABLE %@ (id INTEGER PRIMARY KEY AUTOINCREMENT, newsid TEXT, newstitle TEXT,newstime TEXT)", kCollectTableName]];
     return flag;
 }
 - (NSArray*) queryAll
@@ -27,12 +28,13 @@
     
     FMDatabase *db = [BaseDBHelper getOpenedFMDatabase];
     @try {
-        FMResultSet *resultSet = [db executeQuery:[NSString stringWithFormat:@"SELECT url, fileName FROM %@", kCollectTableName]];
+        FMResultSet *resultSet = [db executeQuery:[NSString stringWithFormat:@"SELECT newsid, newstitle,newstime FROM %@", kCollectTableName]];
         while ([resultSet next]) {
-            ContentModel *book = [[ContentModel alloc] init];
-            [book setUrl:[resultSet stringForColumnIndex:0]];
-            [book setFileName:[resultSet stringForColumnIndex:1]];
-            [array addObject:book];
+            NewsModel *news = [[NewsModel alloc] init];
+            [news setNewsid:[resultSet stringForColumnIndex:0]];
+            [news setTitle:[resultSet stringForColumnIndex:1]];
+            [news setPublishtime:[resultSet stringForColumnIndex:2]];
+            [array addObject:news];
         }
         return array;
     }
@@ -41,13 +43,13 @@
     }
 }
 
-- (BOOL) insertCollect:(ContentModel *) model
+- (BOOL) insertCollect:(NewsModel *) model
 {
     FMDatabase *db = [BaseDBHelper getOpenedFMDatabase];
     @try {
-        NSString *sql = [NSString stringWithFormat:@"INSERT INTO %@ (url, fileName) VALUES (?,?)",kCollectTableName];
+        NSString *sql = [NSString stringWithFormat:@"INSERT INTO %@ (newsid, newstitle,newstime) VALUES (?,?,?)",kCollectTableName];
         
-        BOOL flag = [db executeUpdate:sql, [model url], [model fileName]];
+        BOOL flag = [db executeUpdate:sql, [model newsid], [model title],[model publishtime]];
         
         return flag;
     }
@@ -56,13 +58,13 @@
     }
 }
 
-- (BOOL) deleteCollect:(ContentModel *) model
+- (BOOL) deleteCollect:(NewsModel *) model
 {
     FMDatabase *db = [BaseDBHelper getOpenedFMDatabase];
-    NSString *sql = [NSString stringWithFormat:@"DELETE FROM %@ WHERE url = ?", kCollectTableName];
+    NSString *sql = [NSString stringWithFormat:@"DELETE FROM %@ WHERE newsid = ?", kCollectTableName];
     BOOL result = true;
     @try {
-            BOOL flag = [db executeUpdate:sql, [model url]];
+            BOOL flag = [db executeUpdate:sql, [model newsid]];
             result = result && flag;
             return result;
     }
@@ -74,12 +76,12 @@
     }
 
 }
-- (BOOL) findCollect:(ContentModel *) model
+- (BOOL) findCollect:(NewsModel *) model
 {
     FMDatabase *db = [BaseDBHelper getOpenedFMDatabase];
     int count = 0;
     @try {
-        FMResultSet *resultSet = [db executeQuery:[NSString stringWithFormat:@"SELECT url, fileName FROM %@ WHERE url = ?", kCollectTableName],[model url]];
+        FMResultSet *resultSet = [db executeQuery:[NSString stringWithFormat:@"SELECT newsid, newstitle,newstime FROM %@ WHERE newsid = ?", kCollectTableName],[model newsid]];
         while ([resultSet next]) {
             count = count + 1;
         }

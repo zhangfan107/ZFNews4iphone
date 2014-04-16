@@ -18,3 +18,6 @@
 #define VERSION                   @"VERSION"
 #define FULLSEARCH                @"FULLSEARCH"
 #define ISBUY                     @"ISBUY"
+
+#define SEARCH                    @"SEARCH"
+#define OPENNEWS                    @"OPENNEWS"

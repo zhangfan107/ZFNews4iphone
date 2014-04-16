@@ -65,10 +65,17 @@
         <method>POST</method>
     </request>
     
-    <!--全文检索-->
+    <!--新闻搜索-->
     <request>
-        <requestId>FULLSEARCH</requestId>
-        <url>/buylog.action?m=frontSearchKey</url>
+        <requestId>SEARCH</requestId>
+        <url>/news.action?m=frontGetSearchNews</url>
+        <method>POST</method>
+    </request>
+    
+    <!--新闻查看-->
+    <request>
+        <requestId>OPENNEWS</requestId>
+        <url>/news.action?m=frontGetNewsContent</url>
         <method>POST</method>
     </request>
     
